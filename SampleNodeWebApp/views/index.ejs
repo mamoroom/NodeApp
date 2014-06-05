@@ -1,0 +1,8 @@
+<h1><%= title %></h1>
+<p><a href="/form">Nex Entry</a></p>
+<p>Welcome to <%= title %></p>
+<ul>
+<% items.forEach(function(item) { %>
+	<li><%= item.text %></li>
+<% }) %>
+</ul>
